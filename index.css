@@ -1,9 +1,28 @@
+:root{
+    --black: #000000;
+    --contrast: #4B4B4B;
+    --yellow : #EAC100;
+    --white : #FAFAFA,;
+    --bbblue : #61DBFB;
+    --green : #42B883;
+    --purple : #787CB5;
+    --red : #BC0B15;
+    --grey : #D9D9D9;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 body{
+    display: flex;
+    flex-direction: row;
     font-family: "Inter";
     margin: 0;
 }
 
+.mainlewy{
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+}
 .futurit{
     background-color: #D9D9D9;
     height: 120px;
@@ -15,17 +34,10 @@ body{
     height: 115px;
     width: 312px;
 }
-.kursy{
-    display: flex;
-    justify-self: flex-end;
-    font-size: 120%;
-    width: 320px;
-    margin-right: 60px;
-    text-align: center;
-}
+
 .linki{
     background-color: #4B4B4B;
-    width: 75%;
+    width: 100%;
     height: 50px;
     display: flex;
     align-items: center;
@@ -72,10 +84,11 @@ a:hover{
     font-weight: 800;
     text-align: center;
     height: 200px;
-    width: 75%;
+    width: 100%;
     background-image: url(498784722-05907420-fb08-4f53-9bf5-b3602198a61e.png);
 }
 .nami{
+    
     margin: 0;
 }
 .plan{
@@ -164,14 +177,14 @@ form{
 }
 .imie{
     margin-top: 20px;
-    width: 700px;
+    width: 640px;
     height: 50px;
     border-radius: 10px;
     border: none;
 }
 .numer{
     margin-top: 20px;
-    width: 400px;
+    width: 510px;
     height: 50px;
     border-radius: 10px;
     font-size: 110%;
@@ -179,7 +192,7 @@ form{
 }
 .wiado{
     margin-top: 20px;
-    width: 700px;
+    width: 640px;
     height: 230px;
     border-radius: 10px;
     border: none;
@@ -214,4 +227,148 @@ hr{
 aside{
     background-color: #D9D9D9;
     width: 500px;
+}
+.mainprawy{
+    display: flex;
+    flex-direction: column;
+}
+
+.kurs{
+    display: flex;
+    background-color: var(--grey);
+    justify-self: flex-end;
+    font-size: 120%;
+    width: 100%;
+    height: 120px;
+    margin-right: 60px;
+    text-align: center;
+}
+
+.programowanie{
+    background-color: #D9D9D9;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 200%;
+}
+
+.prawo{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--grey);
+    height: 785px;
+}
+.podprawo{
+    display: flex;
+    height: 735px;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: end;
+}
+.react{
+    display: flex;
+    background-color: var(--bbblue);
+    box-shadow: 0 3px #3f8597;
+    color: #FAFAFA;
+    justify-content: space-between;
+    transition: 0.078s;
+    width: 250px;
+    height: 120px;
+    font-weight: 700;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.react:hover{
+    width: 350px;
+    transition: 0.078s;
+}
+
+.textR{
+    font-size: x-large;
+    text-shadow: -2px 0px #3f8597,0px 2px #3f8597,0px -2px #3f8597, 2px 0px #3f8597;
+}
+
+.vue{
+    display: flex;
+    background-color: var(--green);
+    box-shadow: 0 3px #276d4e;
+    color: #FAFAFA;
+    justify-content: space-between;
+    width: 250px;
+    height: 120px;
+    font-weight: 700;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.vue:hover{
+    width: 350px;
+    transition: 0.078s;
+}
+
+.textV{
+    font-size: x-large;
+    text-shadow: -2px 0px #276d4e,0px 2px #276d4e,0px -2px #276d4e, 2px 0px #276d4e;
+}
+
+.php{
+    display: flex;
+    background-color: var(--purple);
+    box-shadow: 0 3px #444668;
+    color: #FAFAFA;
+    justify-content: space-between;
+    width: 250px;
+    height: 120px;
+    font-weight: 700;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.php:hover{
+    width: 350px;
+    transition: 0.078s;
+}
+
+.textP{
+    font-size: x-large;
+    text-shadow: -2px 0px #444668,0px 2px #444668,0px -2px #444668, 2px 0px #444668;
+}
+
+.java{
+    display: flex;
+    background-color: var(--red);
+    box-shadow: 0 3px #630c10;
+    color: #FAFAFA;
+    justify-content: space-between;
+    width: 250px;
+    height: 120px;
+    font-weight: 900;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.java:hover{
+    width: 350px;
+    transition: 0.078s;
+}
+
+.textJ{
+    font-size: x-large;
+    text-shadow: -2px 0px #630c10,0px 2px #630c10,0px -2px #630c10, 2px 0px #630c10;
+}
+
+.czas{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.github{
+    display: flex;
+    background-color: var(--contrast);
+    justify-content: center;
 }
