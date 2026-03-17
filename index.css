@@ -80,6 +80,9 @@ a:hover{
     font-size: 90%;
 }
 .tło{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 80px;
     font-weight: 800;
     text-align: center;
@@ -237,10 +240,9 @@ aside{
     display: flex;
     background-color: var(--grey);
     justify-self: flex-end;
-    font-size: 120%;
+    font-size: 20px;
     width: 100%;
     height: 120px;
-    margin-right: 60px;
     text-align: center;
 }
 
@@ -297,6 +299,7 @@ aside{
     box-shadow: 0 3px #276d4e;
     color: #FAFAFA;
     justify-content: space-between;
+    transition: 0.078s;
     width: 250px;
     height: 120px;
     font-weight: 700;
@@ -320,6 +323,7 @@ aside{
     box-shadow: 0 3px #444668;
     color: #FAFAFA;
     justify-content: space-between;
+    transition: 0.078s;
     width: 250px;
     height: 120px;
     font-weight: 700;
@@ -343,6 +347,7 @@ aside{
     box-shadow: 0 3px #630c10;
     color: #FAFAFA;
     justify-content: space-between;
+    transition: 0.078s;
     width: 250px;
     height: 120px;
     font-weight: 900;
@@ -371,4 +376,53 @@ aside{
     display: flex;
     background-color: var(--contrast);
     justify-content: center;
+}
+
+/* Drugi HTML */
+
+.srodek{
+    background-color: #D9D9D9;
+    width: 1050px;
+    height: 500px;
+    margin-left: 200px;
+    margin-top: 30px;
+    margin-right: 220px;
+    display: flex;
+    flex-direction: row;
+}
+.kalkulator{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.rata{
+    background-color: #4B4B4B;
+    width: 300px;
+    height: 250px;
+    border-radius: 5px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    color: #FFFFFF;
+    font-size: 130%;
+}
+.check{
+    border-radius: 30px;
+    width: 20px;
+    height: 20px;
+}
+.miasta{
+    background-color: #4B4B4B;
+    width: 250px;
+    height: 50px;
+    color: #FFFFFF;
+    border-radius: 5px;
+    margin-left: 20px;
+    font-weight: 700;
+}
+.miasto{
+    margin-top: 70px;
+    width: 300px;
+    height: 400px;
 }
