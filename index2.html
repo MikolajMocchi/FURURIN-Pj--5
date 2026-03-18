@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="index.css">
+    <script defer src="index.js"></script>
 </head>
 <body>
     <section class="mainlewo">
@@ -26,10 +27,10 @@
                 <h2>OBLICZ MIESIĘCZNĄ RATE</h2>
                 <p>WYBIERZ KURSY:</p>
                 <section class="rata">
-                    <label><input type="checkbox" class="check">React.js</label>
-                    <label><input type="checkbox" class="check">Vue.js</label>
-                    <label><input type="checkbox" class="check">PHP</label>
-                    <label><input type="checkbox" class="check">Java</label>
+                    <label><input type="checkbox" value="21543" class="check">React.js</label>
+                    <label><input type="checkbox" value="2137" class="check">Vue.js</label>
+                    <label><input type="checkbox" value="1000" class="check">PHP</label>
+                    <label><input type="checkbox" value="3000" class="check">Java</label>
                 </section>
                 <section class="miasto">
                     <p>MIASTO:</p>
@@ -48,6 +49,13 @@
                         <input type="number" id="essa">
                     </section>
                 </section>
+                <table>
+                    <tr>
+                        <th>kurs</th>
+                        <th>kwota</th>
+                    </tr>
+                </table>
+                <button>Oblicz</button>
             </section>
         </section>
     </section>
