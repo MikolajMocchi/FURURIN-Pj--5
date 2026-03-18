@@ -374,14 +374,15 @@ aside{
 
 .github{
     display: flex;
+    flex-direction: column;
     background-color: var(--contrast);
-    justify-content: center;
+    align-items: center;
 }
 
 /* Drugi HTML */
 
 .srodek{
-    background-color: #D9D9D9;
+    background-color: var(--grey);
     width: 1050px;
     height: 500px;
     margin-left: 200px;
@@ -396,9 +397,9 @@ aside{
     flex-direction: column;
 }
 .rata{
-    background-color: #4B4B4B;
+    background-color: var(--contrast);
     width: 300px;
-    height: 250px;
+    height: 350px;
     border-radius: 5px;
     margin-left: 20px;
     display: flex;
@@ -413,10 +414,10 @@ aside{
     height: 20px;
 }
 .miasta{
-    background-color: #4B4B4B;
+    background-color: var(--contrast);
     width: 250px;
     height: 50px;
-    color: #FFFFFF;
+    color: white;
     border-radius: 5px;
     margin-left: 20px;
     font-weight: 700;
@@ -425,4 +426,20 @@ aside{
     margin-top: 70px;
     width: 300px;
     height: 400px;
+}
+
+.liczrat{
+    margin-top: 70px;
+}
+
+.eszy{
+    background-color: rgba(255, 255, 255, 0.815);
+    width: 300px;
+    height: 50px;
+    border-radius: 10px;
+}
+#essa{
+    background-color: rgba(255, 255, 255, 0.815);
+    width: 250px;
+    height: 40px;
 }
