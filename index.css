@@ -90,7 +90,7 @@ a:hover{
     width: 100%;
     background-image: url(498784722-05907420-fb08-4f53-9bf5-b3602198a61e.png);
 }
-.nami{
+.napisek{
     
     margin: 0;
 }
@@ -423,13 +423,13 @@ aside{
     font-weight: 700;
 }
 .miasto{
-    margin-top: 70px;
+    margin-top: 40px;
     width: 300px;
     height: 400px;
 }
 
 .liczrat{
-    margin-top: 70px;
+    margin-top: 40px;
 }
 
 .eszy{
@@ -442,4 +442,31 @@ aside{
     background-color: rgba(255, 255, 255, 0.815);
     width: 250px;
     height: 40px;
+}
+table{
+    height: 30%;
+}
+
+/* Trzeci HTML */
+
+.Partner{
+    display: flex;
+    background-color: #3f8597;
+    width: 1471px;
+    height: 585px;
+}
+.midlane{
+    display: flex;
+    background-color: #61DBFB;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.Oracle{
+    display: flex;
+    flex-direction: column;
+}
+.MORE{
+    display: flex;
+    background-color: var(--contrast);
+    justify-content: space-between;
 }
